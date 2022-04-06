@@ -1,0 +1,20 @@
+//Note for user 'bob'
+{
+  "content": "User id of the note creator is at the start send along the request",
+  "important": true,
+  "userId": "624d9633dd0b0d79812df0ef"
+}
+
+//Note for user 'Superuser'
+{
+  "content": "Test note for superuser",
+  "important": true,
+  "userId": "624c7a69e564f5777eaacd8d"
+}
+
+//Create user 'mluukkai'
+{
+  "username": "mluukkai",
+  "name": "Matti Luukkainen",
+  "password": "salainen"
+}

@@ -5,13 +5,13 @@ const initialNotes = [
   {
     content: 'HTML is easy',
     date: new Date(),
-    important: false,
+    important: false
   },
   {
     content: 'Browser can execute only Javascript',
     date: new Date(),
-    important: true,
-  },
+    important: true
+  }
 ]
 
 const nonExistingId = async () => {
@@ -24,14 +24,14 @@ const nonExistingId = async () => {
 
 const notesInDb = async () => {
   const notes = await Note.find({})
-  return notes.map((note) => note.toJSON())
+  return notes.map(note => note.toJSON())
 }
 
 const usersInDb = async () => {
   const users = await User.find({})
-  return users.map((u) => u.toJSON())
+  return users.map(u => u.toJSON())
 }
 
 module.exports = {
-  initialNotes, nonExistingId, notesInDb, usersInDb,
+  initialNotes, nonExistingId, notesInDb, usersInDb
 }
