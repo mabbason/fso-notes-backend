@@ -18,3 +18,10 @@
   "name": "Matti Luukkainen",
   "password": "salainen"
 }
+
+//Create user 'test'; id: "624dc67178cd1755392eb5e0"
+{
+  "username": "test",
+  "name": "test Name",
+  "password": "pass"
+}
